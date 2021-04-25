@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FinalRubenGrauPadilla</string>
+    <string name="mundo_abierto">Mundo abierto</string>
+    <string name="abismo">Abismo</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872178658009",
+    "project_id": "finalrubengraupadilla",
+    "storage_bucket": "finalrubengraupadilla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872178658009:android:4a1025028dee800a596cc8",
+        "android_client_info": {
+          "package_name": "net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872178658009-3bt3jrnmt5agjldli0bf9pnntsf2bb9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThTqS8Cxdqu3URSTAM8_d5RPiYfceCvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872178658009-3bt3jrnmt5agjldli0bf9pnntsf2bb9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -120,4 +120,113 @@ public class Utils {
                 .error(R.drawable.error)
                 .into(imageView);
     }
+
+    public static void cargaImagenBackground(ImageView imageView, String nombre) {
+        Drawable background;
+        switch (nombre) {
+            case "Albedo":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.albedo_background);
+                break;
+            case "Amber":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.amber_background);
+                break;
+            case "Barbara":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.barbara_background);
+                break;
+            case "Beidou":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.beidou_background);
+                break;
+            case "Bennet":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.bennet_background);
+                break;
+            case "Chongyun":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.chongyun_background);
+                break;
+            case "Diluc":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.diluc_background);
+                break;
+            case "Diona":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.diona_background);
+                break;
+            case "Eula":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.eula_background);
+                break;
+            case "Fischl":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.fischl_background);
+                break;
+            case "Ganyu":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.ganyu_background);
+                break;
+            case "Hu Tao":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.hutao_background);
+                break;
+            case "Jean":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.jean_background);
+                break;
+            case "Kaeya":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.kaeya_background);
+                break;
+            case "Keqing":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.keqing_background);
+                break;
+            case "Klee":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.klee_background);
+                break;
+            case "Lisa":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.lisa_background);
+                break;
+            case "Mona":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.mona_background);
+                break;
+            case "Ningguang":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.ningguang_background);
+                break;
+            case "Noelle":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.noelle_background);
+                break;
+            case "Qiqi":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.qiqi_background);
+                break;
+            case "Razor":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.razor_background);
+                break;
+            case "Rosaria":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.rosaria_background);
+                break;
+            case "Sucrose":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.sucrose_background);
+                break;
+            case "Tartaglia":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.tartaglia_background);
+                break;
+            case "Venti":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.venti_background);
+                break;
+            case "Xiangling":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xiangling_background);
+                break;
+            case "Xiao":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xiao_background);
+                break;
+            case "Xingqiu":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xingqiu_background);
+                break;
+            case "Xinyan":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xinyan_background);
+                break;
+            case "Yanfei":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.yanfei_background);
+                break;
+            case "Zhongli":
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.zhongli_background);
+                break;
+            default:
+                background = ContextCompat.getDrawable(imageView.getContext(), R.drawable.default_background);
+        }
+        Glide
+                .with(imageView.getContext())
+                .load(background)
+                .error(R.drawable.error)
+                .into(imageView);
+    }
 }

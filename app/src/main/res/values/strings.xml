@@ -44,9 +44,9 @@
     <string name="artefactos_chongyun">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_chongyun">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_diluc">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_diluc">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_diluc">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_diluc">Arma:\n 1.Lápida de Lobo \n 2.Espada de la Desidia \n 3.Médula de la Serpiente Marina \n 4.Prototipo Arcaico</string>
+    <string name="artefactos_diluc">Artefactos: \n 1.4 Bruja Carmesí \n 2.Bruja Carmesí y 2 Final de Gladiador \n 3.2 Bruja Carmesí y 2 Orquesta Errante\n 4.4 Final de Gladiador</string>
+    <string name="estadisticas_diluc">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:180% \n Recarga de energia:140%</string>
 
     <string name="armas_diona">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_diona">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -64,9 +64,9 @@
     <string name="artefactos_ganyu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_ganyu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_hutao">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_hutao">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_hutao">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_hutao">Arma:\n 1.Báculo de Homa \n 2.Perdición del Dragón \n 3.Halcón de Jade \n 4.Lanza de Duelo</string>
+    <string name="artefactos_hutao">Artefactos: \n 1.4 Bruja Carmesí \n 2.2 Bruja Carmesí y 2 Nobleza \n 3.2 Bruja Carmesí y 2 Tenacidad de la Geoarmada \n 4.4 Retroceso del meteorito</string>
+    <string name="estadisticas_hutao">Estadísticas deseadas: \n Vida:30k \n Crit:70% \n Daño crit:180% \n Recarga de energia:170%</string>
 
     <string name="armas_jean">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_jean">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -80,9 +80,9 @@
     <string name="artefactos_keqing">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_keqing">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_klee">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_klee">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_klee">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_klee">Arma:\n 1.Pergamino Celestial \n 2.Oración Perdida a los Vientos \n 3.Sinfonía de los Merodeadores \n 4.Perla Solar</string>
+    <string name="artefactos_klee">Artefactos: \n 1.4 Bruja Carmesí \n 2.4 Orquesta Errante \n 3.2 Bruja Carmesí y 2 Orquesta Errante \n 4.2 Bruja Carmesí y 2 Nobleza</string>
+    <string name="estadisticas_klee">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
     <string name="armas_lisa">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_lisa">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -140,9 +140,9 @@
     <string name="artefactos_xinyan">Artefactos: \n 1.2 Caballería Sanguinaria y 2 Llamas Albinas \n 2.Retroceso del Meteorito \n 3.2 Final del Gladiador y 2 Caballería Sanguinaria \n 4.2 Caballería Sanguinaria y 2 Nobleza</string>
     <string name="estadisticas_xinyan">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:160%</string>
 
-    <string name="armas_yanfei">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_yanfei">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_yanfei">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_yanfei">Arma:\n 1.Pergamino Celestial \n 2.Oración Perdida a los Vientos \n 3.Sinfonía de los Merodeadores \n 4.Perla Solar</string>
+    <string name="artefactos_yanfei">Artefactos: \n 1.4 Bruja Carmesí \n 2.4 Orquesta Errante \n 3.2 Bruja Carmesí y 2 Orquesta Errante \n 4.2 Bruja Carmesí y 2 Nobleza</string>
+    <string name="estadisticas_yanfei">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
     <string name="armas_zhongli">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_zhongli">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>

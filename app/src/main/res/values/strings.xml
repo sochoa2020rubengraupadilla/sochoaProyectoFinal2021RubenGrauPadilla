@@ -36,9 +36,9 @@
     <string name="artefactos_beidou">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_beidou">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_bennet">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_bennet">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_bennet">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_bennet">Arma:\n 1.Cortadora de jade \n 2.Aquila Favonia \n 3.Deseo Ponzoñoso \n 4.Espada de favonius</string>
+    <string name="artefactos_bennet">Artefactos: \n 1.4 Nobleza \n 2.2 Nobleza y 2 Bruja Carmesí \n 3.4 Bruja Carmesí \n 4.2 Bruja Carmesí y 2 Orquesta Errante</string>
+    <string name="estadisticas_bennet">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:210%</string>
 
     <string name="armas_chongyun">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_chongyun">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -124,9 +124,9 @@
     <string name="artefactos_venti">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_venti">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_xiangling">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_xiangling">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_xiangling">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_xiangling">Arma:\n 1.Báculo de Homa \n 2.Halcón de Jade \n 3.Lanza de favonius \n 4.Prototipo estelar</string>
+    <string name="artefactos_xiangling">Artefactos: \n 1.2 Bruja Carmesí y 2 Nobleza \n 2.4 Bruja Carmesí \n 3.2 Bruja Carmesí y 2 Final de Gladiador \n 4.2 Bruja Carmesí y 2 Orquesta Errante</string>
+    <string name="estadisticas_xiangling">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
     <string name="armas_xiao">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_xiao">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -136,9 +136,9 @@
     <string name="artefactos_xingqiu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_xingqiu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
 
-    <string name="armas_xinyan">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_xinyan">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_xinyan">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_xinyan">Arma:\n 1.Orgullo Celestial \n 2.Lápida de Lobo \n 3.Médula de la Serpiente Marina \n 4.Prototipo Arcaico</string>
+    <string name="artefactos_xinyan">Artefactos: \n 1.2 Caballería Sanguinaria y 2 Llamas Albinas \n 2.Retroceso del Meteorito \n 3.2 Final del Gladiador y 2 Caballería Sanguinaria \n 4.2 Caballería Sanguinaria y 2 Nobleza</string>
+    <string name="estadisticas_xinyan">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:160%</string>
 
     <string name="armas_yanfei">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_yanfei">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
@@ -147,6 +147,7 @@
     <string name="armas_zhongli">Arma:\n 1. \n 2. \n 3. \n 4.</string>
     <string name="artefactos_zhongli">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
     <string name="estadisticas_zhongli">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
-    <string name="a_adir_al_equipo">Añadir al equipo</string>
+
+    <string name="quitar_del_equipo">Quitar del equipo</string>
 
 </resources>

@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.Personaje;
+import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.PopUp;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.utils.Utils;
 
 public class VerPersonajeFragment extends Fragment {
@@ -33,6 +34,10 @@ public class VerPersonajeFragment extends Fragment {
         btBuildRecomendada = view.findViewById(R.id.btBuild);
         ivPersonajeBackground = view.findViewById(R.id.ivBackgroundPersonaje);
         personaje = getArguments().getParcelable(ARG_PERSONAJE);
-        Utils.cargaImagen(ivPersonajeBackground, personaje.getNombre());
+        Utils.cargaImagenBackground(ivPersonajeBackground, personaje.getNombre());
+        btBuildRecomendada.setOnClickListener(v -> {
+            PopUp ventana = new PopUp();
+            ventana.showPopupWindow(view, personaje);
+        });
     }
 }

@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,6 +34,13 @@ public class PersonajesFragment extends Fragment {
     private PersonajesViewModel personajesViewModel;
     private PersonajeAdapter personajeAdapter;
 
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        personajesViewModel = new ViewModelProvider(this).get(PersonajesViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_personajes, container, false);
+        rvPersonajes = root.findViewById(R.id.rvPersonajes);
+        return root;
+    }
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -42,7 +50,7 @@ public class PersonajesFragment extends Fragment {
         personajeAdapter = new PersonajeAdapter();
         rvPersonajes.setHasFixedSize(true);
         rvPersonajes.setLayoutManager(layoutManager);
-
+        rvPersonajes.setLayoutManager(new GridLayoutManager(requireContext(), 8));
         rvPersonajes.setAdapter(personajeAdapter);
 
         personajesViewModel = new ViewModelProvider(this).get(PersonajesViewModel.class);
@@ -82,7 +90,6 @@ public class PersonajesFragment extends Fragment {
         itemTouchHelper.attachToRecyclerView(rvPersonajes);
     }
 
-    //Método que añade un pokemon a favoritos
     private void anyadirAlEquipo(Personaje personaje, int posicion) {
         AlertDialog.Builder dialogo = new AlertDialog.Builder(getContext());
         dialogo.setTitle(R.string.aviso);

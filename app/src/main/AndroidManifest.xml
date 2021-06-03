@@ -13,7 +13,7 @@
             android:name=".ui.TeamBuildingActivity"
             android:label="@string/title_activity_team_building"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.FinalRubenGrauPadilla.NoActionBar"></activity>
+            android:theme="@style/Theme.FinalRubenGrauPadilla.NoActionBar" />
         <activity
             android:name=".ui.MainActivity"
             android:screenOrientation="landscape">

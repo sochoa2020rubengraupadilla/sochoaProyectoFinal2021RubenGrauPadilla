@@ -20,15 +20,11 @@ public class PersonajesViewModel extends AndroidViewModel {
     public PersonajesViewModel(@NonNull Application application) {
         super(application);
         mRepository = PersonajeRepository.getInstance(application);
-        mAllPersonajes = mRepository.getPersonaje();
+        mAllPersonajes = mRepository.getAllPersonajes();
     }
 
     public LiveData<List<Personaje>> getAllPersonajes() {
         return mAllPersonajes;
-    }
-
-    public void getNextPersonaje() {
-        mRepository.getNextPersonaje();
     }
 
     public List<Personaje> getAllPersonajeList() {

@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".ui.ui.personajes.PersonajesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPersonajes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/characters_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

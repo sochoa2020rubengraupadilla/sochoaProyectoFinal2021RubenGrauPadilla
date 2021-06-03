@@ -27,10 +27,6 @@ public class EquipoViewModel extends AndroidViewModel {
         return mAllPersonajes;
     }
 
-    public void getNextPersonaje() {
-        mRepository.getNextPersonaje();
-    }
-
     public List<Personaje> getPersonajesEquipoList() {
         return mAllPersonajes.getValue();
     }

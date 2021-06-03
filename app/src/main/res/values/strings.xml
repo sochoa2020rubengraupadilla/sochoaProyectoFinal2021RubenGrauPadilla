@@ -14,8 +14,139 @@
     <string name="menu_home">Personajes</string>
     <string name="menu_equipo">Equipo</string>
     <string name="albedo">Albedo</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="build_recomendada">Build recomendada</string>
     <string name="aviso">Aviso</string>
+    <string name="estadisticas_a_buscar">Estadisticas a buscar:</string>
+    <string name="artefactos">Artefactos:</string>
+    <string name="armas">Armas:</string>
+
+    <string name="armas_albedo">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_albedo">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_albedo">Estadísticas deseadas: \n Defensa: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_amber">Arma:\n 1.Arco de amos \n 2.Prototipo Luz de Luna \n 3.Último acorde \n 4.Tirachinas</string>
+    <string name="artefactos_amber">Artefactos: \n 1.4 Orquesta del Errante \n 2.2 Orquesta del Errante y 2 Bruja Carmesí \n 3.2 Bruja Carmesí y 2 Nobleza \n 4. 2 Bruja Carmesí y 2 Final del Gladiador</string>
+    <string name="estadisticas_amber">Estadísticas deseadas: \n Ataque: 2k+ \n Crit:70% \n Daño crit:140% \n Recarga de energia:</string>
+
+    <string name="armas_barbara">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_barbara">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_barbara">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_beidou">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_beidou">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_beidou">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_bennet">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_bennet">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_bennet">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_chongyun">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_chongyun">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_chongyun">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_diluc">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_diluc">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_diluc">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_diona">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_diona">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_diona">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_eula">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_eula">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_eula">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_fischl">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_fischl">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_fischl">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_ganyu">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_ganyu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_ganyu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_hutao">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_hutao">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_hutao">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_jean">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_jean">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_jean">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_kaeya">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_kaeya">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_kaeya">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_keqing">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_keqing">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_keqing">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_klee">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_klee">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_klee">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_lisa">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_lisa">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_lisa">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_mona">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_mona">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_mona">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_ningguang">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_ningguang">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_ningguang">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_noelle">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_noelle">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_noelle">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_qiqi">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_qiqi">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_qiqi">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_razor">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_razor">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_razor">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_rosaria">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_rosaria">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_rosaria">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_sacarosa">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_sacarosa">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_sacarosa">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_tartaglia">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_tartaglia">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_tartaglia">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_venti">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_venti">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_venti">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_xiangling">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_xiangling">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_xiangling">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_xiao">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_xiao">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_xiao">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_xingqiu">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_xingqiu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_xingqiu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_xinyan">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_xinyan">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_xinyan">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_yanfei">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_yanfei">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_yanfei">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+
+    <string name="armas_zhongli">Arma:\n 1. \n 2. \n 3. \n 4.</string>
+    <string name="artefactos_zhongli">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
+    <string name="estadisticas_zhongli">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="a_adir_al_equipo">Añadir al equipo</string>
+
 </resources>

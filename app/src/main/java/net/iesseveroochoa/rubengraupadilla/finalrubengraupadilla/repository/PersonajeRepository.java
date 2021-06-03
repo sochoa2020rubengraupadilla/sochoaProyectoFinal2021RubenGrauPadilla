@@ -16,8 +16,6 @@ public class PersonajeRepository {
 
     private PersonajeDao mPersonajeDao;
 
-    private NetworkService mNetworkService;
-
     public static PersonajeRepository getInstance(Application application) {
         if (INSTANCE == null) {
             synchronized (PersonajeRepository.class) {
@@ -32,15 +30,10 @@ public class PersonajeRepository {
     private PersonajeRepository(Application application) {
         PersonajeDataBase db = PersonajeDataBase.getDatabase(application);
         mPersonajeDao = db.personajeDao();
-        mNetworkService = NetworkService.getInstance();
     }
 
-    public LiveData<List<Personaje>> getPersonaje() {
-        return mNetworkService.getListaPersonajesApi();
-    }
-
-    public void getNextPersonaje() {
-        mNetworkService.getSiguientesPersonajesApi();
+    public LiveData<List<Personaje>> getAllPersonajes() {
+        return mPersonajeDao.allPersonajes();
     }
 
     public LiveData<List<Personaje>> getPersonajesEquipo() {

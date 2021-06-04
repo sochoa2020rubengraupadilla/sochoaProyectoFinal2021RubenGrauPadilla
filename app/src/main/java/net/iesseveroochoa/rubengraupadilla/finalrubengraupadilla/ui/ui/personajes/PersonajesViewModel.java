@@ -38,4 +38,8 @@ public class PersonajesViewModel extends AndroidViewModel {
     public void delete(Personaje personaje) {
         mRepository.delete(personaje);
     }
+
+    public void update(Personaje personaje) {
+        mRepository.update(personaje);
+    }
 }

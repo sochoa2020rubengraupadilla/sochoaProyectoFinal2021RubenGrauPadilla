@@ -14,37 +14,39 @@ import androidx.fragment.app.Fragment;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.Personaje;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.PopUp;
-import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.adapters.PersonajeAdapter;
-import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.equipo.EquipoFragment;
-import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.personajes.PersonajesViewModel;
+import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.equipo.EquipoViewModel;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.utils.Utils;
 
-public class VerPersonajeFragment extends Fragment {
+public class VerEquipoFragment extends Fragment {
 
-    public static final String ARG_PERSONAJE = "VerPersonajeFragment.personaje";
+    public static final String ARG_EQUIPO = "VerEquipoFragment.personaje";
 
-    EquipoFragment equipoFragment;
+    EquipoViewModel equipoViewModel;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_ver_personaje, container, false);
+        return inflater.inflate(R.layout.fragment_ver_equipo, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Button btBuildRecomendada;
-        Button btAnyadirAlEquipo;
+        Button btQuitarDelEquipo;
         ImageView ivPersonajeBackground;
         Personaje personaje;
         btBuildRecomendada = view.findViewById(R.id.btBuild);
-        btAnyadirAlEquipo = view.findViewById(R.id.btAnyadirAlEquipo);
+        btQuitarDelEquipo = view.findViewById(R.id.btQuitarDelEquipo);
         ivPersonajeBackground = view.findViewById(R.id.ivBackgroundPersonaje);
-        personaje = getArguments().getParcelable(ARG_PERSONAJE);
+        personaje = getArguments().getParcelable(ARG_EQUIPO);
         Utils.cargaImagenBackground(ivPersonajeBackground, personaje.getNombre());
         btBuildRecomendada.setOnClickListener(v -> {
             PopUp ventana = new PopUp();
             ventana.showPopupWindow(view, personaje);
+        });
+        btQuitarDelEquipo.setOnClickListener(v -> {
+            personaje.setEnEquipo(false);
+            equipoViewModel.update(personaje);
         });
     }
 }

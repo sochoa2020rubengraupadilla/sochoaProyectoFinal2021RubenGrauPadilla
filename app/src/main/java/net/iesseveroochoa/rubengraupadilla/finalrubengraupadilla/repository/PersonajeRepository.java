@@ -47,4 +47,8 @@ public class PersonajeRepository {
     public void delete(Personaje personaje) {
         PersonajeDataBase.executor.execute(() -> mPersonajeDao.deleteByPersonaje(personaje));
     }
+
+    public void update(Personaje personaje) {
+        PersonajeDataBase.executor.execute(() -> mPersonajeDao.update(personaje));
+    }
 }

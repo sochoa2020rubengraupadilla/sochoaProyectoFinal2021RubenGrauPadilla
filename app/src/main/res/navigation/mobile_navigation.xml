@@ -19,10 +19,19 @@
         android:id="@+id/nav_equipo"
         android:name="net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.equipo.EquipoFragment"
         android:label="@string/menu_equipo"
-        tools:layout="@layout/fragment_equipo" />
+        tools:layout="@layout/fragment_equipo" >
+        <action
+            android:id="@+id/action_nav_equipo_to_verEquipoFragment"
+            app:destination="@id/verEquipoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/verPersonajeFragment"
         android:name="net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.VerPersonajeFragment"
         android:label="fragment_ver_personaje"
         tools:layout="@layout/fragment_ver_personaje" />
+    <fragment
+        android:id="@+id/verEquipoFragment"
+        android:name="net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.VerEquipoFragment"
+        android:label="fragment_ver_equipo"
+        tools:layout="@layout/fragment_ver_equipo" />
 </navigation>

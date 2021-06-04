@@ -5,40 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".ui.ui.VerPersonajeFragment">
+    tools:context=".ui.ui.VerEquipoFragment">
 
     <ImageView
         android:id="@+id/ivBackgroundPersonaje"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerInside"
         android:src="@drawable/albedo_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btBuild"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
         android:background="@color/teal_700"
+        android:scaleType="fitCenter"
         android:text="@string/build_recomendada"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btAnyadirAlEquipo"
+        android:id="@+id/btQuitarDelEquipo"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/anyadir_al_equipo"
+        android:text="@string/quitar_del_equipo"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

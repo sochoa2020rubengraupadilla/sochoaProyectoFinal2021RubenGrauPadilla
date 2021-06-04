@@ -25,6 +25,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.Personaje;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.PopUp;
+import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.VerEquipoFragment;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.VerPersonajeFragment;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.adapters.EquipoAdapter;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.adapters.PersonajeAdapter;
@@ -68,8 +69,8 @@ public class EquipoFragment extends Fragment {
                 });
         equipoAdapter.setOnItemPersonajeEquipoClickListener(personaje -> {
             Bundle argumentosBundle = new Bundle();
-            argumentosBundle.putParcelable(VerPersonajeFragment.ARG_PERSONAJE, personaje);
-            NavHostFragment.findNavController(EquipoFragment.this).navigate(R.id.verPersonajeFragment, argumentosBundle);
+            argumentosBundle.putParcelable(VerEquipoFragment.ARG_EQUIPO, personaje);
+            NavHostFragment.findNavController(EquipoFragment.this).navigate(R.id.verEquipoFragment, argumentosBundle);
         });
         definirEventoSwiper();
 
@@ -100,14 +101,14 @@ public class EquipoFragment extends Fragment {
                     public void onSwiped(RecyclerView.ViewHolder viewHolder, int swipeDir) {
                         PersonajeAdapter.PersonajeViewHolder vhPersonaje = (PersonajeAdapter.PersonajeViewHolder) viewHolder;
                         Personaje personaje = vhPersonaje.getPersonaje();
-                        anyadirAlEquipo(personaje, vhPersonaje.getAdapterPosition());
+                        quitarDelEquipo(personaje, vhPersonaje.getAdapterPosition());
                     }
                 };
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleItemTouchCallback);
         itemTouchHelper.attachToRecyclerView(rvEquipo);
     }
 
-    private void anyadirAlEquipo(Personaje personaje, int posicion) {
+    private void quitarDelEquipo(Personaje personaje, int posicion) {
         AlertDialog.Builder dialogo = new AlertDialog.Builder(getContext());
         dialogo.setTitle(R.string.aviso);
         dialogo.setMessage("Desea añadir el personaje al equipo?");
@@ -122,7 +123,7 @@ public class EquipoFragment extends Fragment {
                 DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        equipoViewModel.insert(personaje);
+                        equipoViewModel.update(personaje);
                         equipoAdapter.notifyItemChanged(posicion);
                     }
                 });

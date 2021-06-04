@@ -28,6 +28,6 @@ public interface PersonajeDao {
     @Query("SELECT * FROM " + Personaje.TABLE_NAME + " ORDER BY " + Personaje.NOMBRE)
     LiveData<List<Personaje>> allPersonajes();
 
-    @Query("SELECT * FROM " + Personaje.TABLE_NAME + " WHERE " + Personaje.EN_EQUIPO + " = 'true'")
+    @Query("SELECT * FROM " + Personaje.TABLE_NAME + " WHERE " + Personaje.EN_EQUIPO + " = 1 LIMIT 4")
     LiveData<List<Personaje>> personajesEquipo();
 }

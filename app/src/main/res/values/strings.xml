@@ -20,121 +20,121 @@
     <string name="artefactos">Artefactos:</string>
     <string name="armas">Armas:</string>
 
-    <string name="armas_albedo">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_albedo">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_albedo">Estadísticas deseadas: \n Defensa: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_albedo">Arma:\n 1.Espada del alba \n 2.Deseo Ponzoñoso \n 3.Cortadora de Jade \n 4.Rompemontañas</string>
+    <string name="artefactos_albedo">Artefactos: \n 1.2 Petra Arcáica y 2 Nobleza \n 2.4 Tenacidad de la Geoarmada \n 3.4 Petra Arcáica \n 4.4 Nobleza</string>
+    <string name="estadisticas_albedo">Estadísticas deseadas: \n Defensa:3k \n Crit:70% \n Daño crit:140% \n Recarga de energia:150%</string>
 
     <string name="armas_amber">Arma:\n 1.Arco de amos \n 2.Prototipo Luz de Luna \n 3.Último acorde \n 4.Tirachinas</string>
     <string name="artefactos_amber">Artefactos: \n 1.4 Orquesta del Errante \n 2.2 Orquesta del Errante y 2 Bruja Carmesí \n 3.2 Bruja Carmesí y 2 Nobleza \n 4. 2 Bruja Carmesí y 2 Final del Gladiador</string>
     <string name="estadisticas_amber">Estadísticas deseadas: \n Ataque: 2k+ \n Crit:70% \n Daño crit:140% \n Recarga de energia:</string>
 
-    <string name="armas_barbara">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_barbara">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_barbara">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_barbara">Arma:\n 1.Cuento de los Cazadores de Dragones \n 2.Carta Nautica \n 3.Códice de favonius \n 4.Prototipo Ámbar</string>
+    <string name="artefactos_barbara">Artefactos: \n 1.4 Doncella Amada \n 2.2 Doncella Amada y 2 Tenacidad de la Geoarmada \n 3.4 Nobleza \n 4.2 Doncella y 2 Exiliado</string>
+    <string name="estadisticas_barbara">Estadísticas deseadas: \n Vida:25k \n Crit:— \n Daño crit:— \n Recarga de energia:190%</string>
 
-    <string name="armas_beidou">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_beidou">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_beidou">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_beidou">Arma:\n 1.Lápida de Lobo \n 2.Médula de la Serpiente Marina \n 3.Orgullo Celestial \n 4.Gran espada de favonius</string>
+    <string name="artefactos_beidou">Artefactos: \n 1.2 Furia del Trueno y 2 Nobleza \n 2.2 Furia del Trueno y 2 Final del Gladiador \n 3.4 Nobleza \n 4.4 Domador de Truenos</string>
+    <string name="estadisticas_beidou">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
     <string name="armas_bennet">Arma:\n 1.Cortadora de jade \n 2.Aquila Favonia \n 3.Deseo Ponzoñoso \n 4.Espada de favonius</string>
     <string name="artefactos_bennet">Artefactos: \n 1.4 Nobleza \n 2.2 Nobleza y 2 Bruja Carmesí \n 3.4 Bruja Carmesí \n 4.2 Bruja Carmesí y 2 Orquesta Errante</string>
     <string name="estadisticas_bennet">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:210%</string>
 
-    <string name="armas_chongyun">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_chongyun">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_chongyun">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_chongyun">1.Lápida de Lobo \n 2.Orgullo Celestial \n 3.Médula de la Serpiente Marina \n 4.Gran hoja del peñasco oscuro</string>
+    <string name="artefactos_chongyun">Artefactos: \n 1.2 Nómada del Invierno y 2 Nobleza \n 2.4 Nobleza \n 3.4 Nómada del Invierno \n 4.2 Nómada del Invierno y 2 Final del Gladiador</string>
+    <string name="estadisticas_chongyun">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:150%</string>
 
     <string name="armas_diluc">Arma:\n 1.Lápida de Lobo \n 2.Espada de la Desidia \n 3.Médula de la Serpiente Marina \n 4.Prototipo Arcaico</string>
     <string name="artefactos_diluc">Artefactos: \n 1.4 Bruja Carmesí \n 2.Bruja Carmesí y 2 Final de Gladiador \n 3.2 Bruja Carmesí y 2 Orquesta Errante\n 4.4 Final de Gladiador</string>
     <string name="estadisticas_diluc">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:180% \n Recarga de energia:140%</string>
 
-    <string name="armas_diona">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_diona">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_diona">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_diona">Arma:\n 1.Arco de favonius \n 2.Arco del sacrificio \n 3.Elegía del Fin \n 4.Arco recurvo</string>
+    <string name="artefactos_diona">Artefactos: \n 1.$ Nobleza \n 2.2 Doncella Amada y 2 Tenacidad de la geoarmada \n 3.4 Doncella Amada \n 4.4 Tenacidad de la geoarmada</string>
+    <string name="estadisticas_diona">Estadísticas deseadas: \n Vida:30k \n Crit:30% \n Daño crit:— \n Recarga de energia:210%</string>
 
-    <string name="armas_eula">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_eula">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_eula">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_eula">Arma:\n 1.Oda de los Pinos \n 2.Orgullo Celestial \n 3.Lápida de Lobo \n 4.Argento estelar de las nieves</string>
+    <string name="artefactos_eula">Artefactos: \n 1.4 Llamas Albinas \n 2.2 Caballería Sanguinaria y 2 Llamas Albinas \n 3.4 Gladiador \n 4.2 Llamas Albinas y 2 Final del Gladiador</string>
+    <string name="estadisticas_eula">Estadísticas deseadas: \n Ataque:2k+ \n Crit:70% \n Daño crit:180% \n Recarga de energia:130%</string>
 
-    <string name="armas_fischl">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_fischl">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_fischl">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_fischl">Arma:\n 1.Alas Celestiales \n 2.Herrumbre \n 3.Último Acorde \n 4.Arco de la Cazadora Esmeralda</string>
+    <string name="artefactos_fischl">Artefactos: \n 1.2 Caballerí Sanguinaria y 2 Llamas Albinas \n 2.2 Final del Gladiador y 2 Llamas Albinas \n 3.2 Final del Gladiador y 2 Furia del Trueno \n 4.4 Furia del Trueno</string>
+    <string name="estadisticas_fischl">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:140% \n Recarga de energia:160%</string>
 
-    <string name="armas_ganyu">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_ganyu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_ganyu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_ganyu">Arma:\n 1.Arco de Amos \n 2.Alas Celestiales \n 3.Último Acorde \n 4.Prototipo Luz de Luna</string>
+    <string name="artefactos_ganyu">Artefactos: \n 1.4 Nómada del Invierno \n 2.4 Orquesta Errante \n 3.2 Nómada del Invierno y 2 Nobleza \n 4.2 Nómada del Invierno y 2 Final del Gladiador</string>
+    <string name="estadisticas_ganyu">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:180% \n Recarga de energia:160%</string>
 
     <string name="armas_hutao">Arma:\n 1.Báculo de Homa \n 2.Perdición del Dragón \n 3.Halcón de Jade \n 4.Lanza de Duelo</string>
     <string name="artefactos_hutao">Artefactos: \n 1.4 Bruja Carmesí \n 2.2 Bruja Carmesí y 2 Nobleza \n 3.2 Bruja Carmesí y 2 Tenacidad de la Geoarmada \n 4.4 Retroceso del meteorito</string>
     <string name="estadisticas_hutao">Estadísticas deseadas: \n Vida:30k \n Crit:70% \n Daño crit:180% \n Recarga de energia:170%</string>
 
-    <string name="armas_jean">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_jean">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_jean">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_jean">Arma:\n 1.Cortadora de Jade \n 2.Hoja Afilada Celestial \n 3.Deseo Ponzoñoso \n 4.La flauta</string>
+    <string name="artefactos_jean">Artefactos: \n 1.4 Sombre Verde Esmeralda \n 2.2 Sombre Verde Esmeralda y 2 Final del Gladiador \n 3.2 Sombre Verde Esmeralda y 2 Nobleza \n 4.4 Nobleza</string>
+    <string name="estadisticas_jean">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
-    <string name="armas_kaeya">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_kaeya">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_kaeya">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_kaeya">Arma:\n 1.Hoja Afilada Celestial \n 2.Deseo Ponzoñoso \n 3.Espada del sacrificio \n 4.Espada de favonius</string>
+    <string name="artefactos_kaeya">Artefactos: \n 1.2 Nómada del Invierno y 2 Nobleza \n 2.4 Nobleza \n 3.4 Nómada del Invierno \n 4.2 Nómada del Invierno y 2 Final del Gladiador</string>
+    <string name="estadisticas_kaeya">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
-    <string name="armas_keqing">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_keqing">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_keqing">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_keqing">Arma:\n 1.Cortadora de Jade \n 2.Rompemontañas \n 3.Rugido del león \n 4.Espada Negra</string>
+    <string name="artefactos_keqing">Artefactos: \n 1.2 Furia del Trueno y 2 Final del Gladiador \n 2.2 Furia del Trueno y 2 Nobleza \n 3.4 Furia del Trueno \n 4.4 Domador de Truenos</string>
+    <string name="estadisticas_keqing">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:180% \n Recarga de energia:125%</string>
 
     <string name="armas_klee">Arma:\n 1.Pergamino Celestial \n 2.Oración Perdida a los Vientos \n 3.Sinfonía de los Merodeadores \n 4.Perla Solar</string>
     <string name="artefactos_klee">Artefactos: \n 1.4 Bruja Carmesí \n 2.4 Orquesta Errante \n 3.2 Bruja Carmesí y 2 Orquesta Errante \n 4.2 Bruja Carmesí y 2 Nobleza</string>
     <string name="estadisticas_klee">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
-    <string name="armas_lisa">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_lisa">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_lisa">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_lisa">Arma:\n 1.Pergamino Celestial \n 2.Sinfonía de los Merodeadores \n 3.Oración Perdida a los Vientos \n 4.Vino y Poesía</string>
+    <string name="artefactos_lisa">Artefactos: \n 1.2 Furia del Trueno y 2 Nobleza \n 2.2 Furia del Trueno y 2 Final del Gladiador \n 3.4 Nobleza \n 4.4 Domador de Truenos</string>
+    <string name="estadisticas_lisa">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
-    <string name="armas_mona">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_mona">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_mona">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_mona">Arma:\n 1.Sinfonía de los Merodeadores \n 2.Pergamino Celestial \n 3.Oración Perdida a los Vientos \n 4.Perla Solar</string>
+    <string name="artefactos_mona">Artefactos: \n 1.2 Corazón de las Profundidades y 2 Final del Gladiador \n 2.2 Corazón de las Profundidades y 2 Nobleza \n 3.4 Nobleza \n 4.4 Corazón de las Profundidades</string>
+    <string name="estadisticas_mona">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
-    <string name="armas_ningguang">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_ningguang">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_ningguang">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_ningguang">Arma:\n 1.Oración Perdida a los Vientos \n 2.Pergamino Celestial \n 3.Candado Terrenal \n 4.Perla Solar</string>
+    <string name="artefactos_ningguang">Artefactos: \n 1.2 Petra Arcáica y 2 Final del Gladiador \n 2.2 Petra Arcáica y 2 Nobleza \n 3.4 Retroceso del Meteorito \n 4.2 Nobleza y 2 Final del Gladiador</string>
+    <string name="estadisticas_ningguang">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:150% \n Recarga de energia:150%</string>
 
-    <string name="armas_noelle">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_noelle">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_noelle">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_noelle">Arma:\n 1.Orgullo Celestial \n 2.Médula de la Serpiente Marina \n 3.Lápida de Lobo \n 4.Gran espada de favonius</string>
+    <string name="artefactos_noelle">Artefactos: \n 1.4 Retroceso del Meteorito \n 2.4 Final del Gladiador \n 3.2 Petra Arcáica y 2 Final del Gladiador \n 4.4 Doncella Amada</string>
+    <string name="estadisticas_noelle">Estadísticas deseadas: \n Defensa:3k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
-    <string name="armas_qiqi">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_qiqi">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_qiqi">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_qiqi">Arma:\n 1.Espada del sacrificio \n 2.Espada de favonius \n 3.La flauta \n 4.Hoja Afilada Celestial</string>
+    <string name="artefactos_qiqi">Artefactos: \n 1.4 Donccella Amada \n 2.4 Nobleza</string>
+    <string name="estadisticas_qiqi">Estadísticas deseadas: \n Ataque:— \n Crit:50% \n Daño crit:— \n Recarga de energia:210%</string>
 
-    <string name="armas_razor">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_razor">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_razor">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_razor">Arma:\n 1.Orgullo Celestial \n 2.Oda de los Pinos \n 3.Argento estelar de las nieves \n 4.Prototipo Arcáico</string>
+    <string name="artefactos_razor">Artefactos: \n 1.2 Caballería Sanguinaria y 2 Llamas Albinas \n 2.4 Final del Gladiador \n 3.2 Caballería Sanguinaria y 2 Final del Gladiador \n 4.4 Llamas Albinas</string>
+    <string name="estadisticas_razor">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
-    <string name="armas_rosaria">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_rosaria">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_rosaria">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_rosaria">Arma:\n 1.Báculo de Homa \n 2.Halcón de Jade \n 3.Lanza de duelo \n 4.Lanza de favonius</string>
+    <string name="artefactos_rosaria">Artefactos: \n 1.2 Nómada del Invierno y 2 Nobleza \n 2.4 Nobleza \n 3.4 Nómada del Invierno \n 4.2 Nómada del Invierno y 2 Final del Gladiador</string>
+    <string name="estadisticas_rosaria">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
-    <string name="armas_sacarosa">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_sacarosa">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_sacarosa">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_sacarosa">Arma:\n 1.Oración Perdida a los Vientos \n 2.Sinfonía de los Merodeadores \n 3.Vino y Poesía \n 4.Memorias de sacrificios</string>
+    <string name="artefactos_sacarosa">Artefactos: \n 1.4 Sombra Verde Esmeralda \n 2.4 Nobleza \n 3.2 Sombra Verde Esmeralda y 2 Nobleza \n 4.2 Sombra Verde Esmeralda y 2 Final del Gladiador</string>
+    <string name="estadisticas_sacarosa">Estadísticas deseadas: \n Ataque:1.7k \n Crit:50% \n Daño crit:140% \n Recarga de energia:200%</string>
 
-    <string name="armas_tartaglia">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_tartaglia">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_tartaglia">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_tartaglia">Arma:\n 1.Alas Celestiales \n 2.Arco de la Cazadora Esmeralda \n 3.Herrumbre \n 4.Último Acorde</string>
+    <string name="artefactos_tartaglia">Artefactos: \n 1.4 Corazón de las Profundidades \n 2.2 Corazón de las Profundidades y 2 Nobleza \n 3.2 Corazón de las Profundidades y 2 Final del Gladiador \n 4.2 Nobleza y 2 Final del Gladiador </string>
+    <string name="estadisticas_tartaglia">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:150% \n Recarga de energia:160%</string>
 
-    <string name="armas_venti">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_venti">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_venti">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_venti">Arma:\n 1.Alas Celestiales \n 2.Úlitmo Acorde \n 3.Elegía del Fin \n 4.Arco de la Cazadora Esmeralda</string>
+    <string name="artefactos_venti">Artefactos: \n 1.4 Sombra Verde Esmeralda \n 2.4 Nobleza \n 3.2 Sombra Verde Esmeralda y 2 Nobleza \n 4.2 Sombra Verde Esmeralda y 2 Final del Gladiador</string>
+    <string name="estadisticas_venti">Estadísticas deseadas: \n Ataque:1.8k \n Crit:60% \n Daño crit:140% \n Recarga de energia:170%</string>
 
     <string name="armas_xiangling">Arma:\n 1.Báculo de Homa \n 2.Halcón de Jade \n 3.Lanza de favonius \n 4.Prototipo estelar</string>
     <string name="artefactos_xiangling">Artefactos: \n 1.2 Bruja Carmesí y 2 Nobleza \n 2.4 Bruja Carmesí \n 3.2 Bruja Carmesí y 2 Final de Gladiador \n 4.2 Bruja Carmesí y 2 Orquesta Errante</string>
     <string name="estadisticas_xiangling">Estadísticas deseadas: \n Ataque:1.8k \n Crit:70% \n Daño crit:140% \n Recarga de energia:170%</string>
 
-    <string name="armas_xiao">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_xiao">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_xiao">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_xiao">Arma:\n 1.Halcón de Jade \n 2.Báculo de Homa \n 3.Lanza de duelo \n 4.Lanza del Peñasco Oscuro</string>
+    <string name="artefactos_xiao">Artefactos: \n 1.2 Sombre Verde Esmeralda y 2 Final del Gladiador \n 2.4 Final del Gladiador</string>
+    <string name="estadisticas_xiao">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:180% \n Recarga de energia:180%</string>
 
-    <string name="armas_xingqiu">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_xingqiu">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_xingqiu">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_xingqiu">Arma:\n 1.Espada del sacrificio \n 2.Cortadora de Jade \n 3.Deseo Ponzoñoso \n 4.Hoja Afilada Celestial</string>
+    <string name="artefactos_xingqiu">Artefactos: \n 1.2 Nobleza y 2 Corazón de las Profundidades \n 2.2 Nobleza y 2 Final del Gladiador \n 3.4 Nobleza \n 4.2 Exiliado y 2 Escolar</string>
+    <string name="estadisticas_xingqiu">Estadísticas deseadas: \n Ataque:1.6k \n Crit:70% \n Daño crit:140% \n Recarga de energia:210%</string>
 
     <string name="armas_xinyan">Arma:\n 1.Orgullo Celestial \n 2.Lápida de Lobo \n 3.Médula de la Serpiente Marina \n 4.Prototipo Arcaico</string>
     <string name="artefactos_xinyan">Artefactos: \n 1.2 Caballería Sanguinaria y 2 Llamas Albinas \n 2.Retroceso del Meteorito \n 3.2 Final del Gladiador y 2 Caballería Sanguinaria \n 4.2 Caballería Sanguinaria y 2 Nobleza</string>
@@ -144,9 +144,9 @@
     <string name="artefactos_yanfei">Artefactos: \n 1.4 Bruja Carmesí \n 2.4 Orquesta Errante \n 3.2 Bruja Carmesí y 2 Orquesta Errante \n 4.2 Bruja Carmesí y 2 Nobleza</string>
     <string name="estadisticas_yanfei">Estadísticas deseadas: \n Ataque:1.7k \n Crit:70% \n Daño crit:140% \n Recarga de energia:190%</string>
 
-    <string name="armas_zhongli">Arma:\n 1. \n 2. \n 3. \n 4.</string>
-    <string name="artefactos_zhongli">Artefactos: \n 1. \n 2. \n 3. \n 4.</string>
-    <string name="estadisticas_zhongli">Estadísticas deseadas: \n Ataque: \n Crit: \n Daño crit: \n Recarga de energia:</string>
+    <string name="armas_zhongli">Arma:\n 1.Báculo de Homa \n 2.Halcón de Jade \n 3.Lanza de duelo \n 4.Lanza de favonius</string>
+    <string name="artefactos_zhongli">Artefactos: \n 1.2 Petra Arcáica y 2 Final del Gladiador \n 2.2 Petra Arcáica y 2 Tenacidad de la Geoarmada \n 3.2 Nobleza y 2 Tenacidad de la Geoarmada \n 4.4 Tenacidad de la Geoarmada</string>
+    <string name="estadisticas_zhongli">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:150%</string>
 
     <string name="quitar_del_equipo">Quitar del equipo</string>
 

@@ -1,5 +1,6 @@
 package net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model;
 
+import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -8,6 +9,10 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.content.res.AppCompatResources;
+import androidx.core.content.ContextCompat;
 
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 
@@ -19,18 +24,16 @@ public class PopUp {
         View popupView = inflater.inflate(R.layout.ventana_build_recomendada, null);
 
         int width = LinearLayout.LayoutParams.MATCH_PARENT;
-        int height = LinearLayout.LayoutParams.MATCH_PARENT;
+        int height = LinearLayout.LayoutParams.WRAP_CONTENT;
 
         boolean focusable = true;
 
         final PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
-
-        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 100);
 
         TextView armas = popupView.findViewById(R.id.tvArmas);
         TextView artefactos = popupView.findViewById(R.id.tvArtefactos);
         TextView estadisticasABuscar = popupView.findViewById(R.id.tvEstadisticasABuscar);
-        armas.setText(R.string.build_recomendada);
 
         String nombre = p.getNombre();
 

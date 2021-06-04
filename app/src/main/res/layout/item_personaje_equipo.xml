@@ -38,14 +38,6 @@
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toBottomOf="@+id/ivPersonaje" />
 
-        <Button
-            android:id="@+id/btQuitarDelEquipo"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/quitar_del_equipo"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toBottomOf="@+id/tvNombrePersonaje" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>

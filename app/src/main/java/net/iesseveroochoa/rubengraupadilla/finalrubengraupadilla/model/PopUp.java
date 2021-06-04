@@ -1,11 +1,13 @@
 package net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model;
 
+import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
@@ -17,13 +19,34 @@ import androidx.core.content.ContextCompat;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 
 public class PopUp {
+    private Button btCerrarRecomendaciones;
+
+    @SuppressLint("ClickableViewAccessibility")
+    public void showWindow(final View view) {
+
+        LayoutInflater inflater = (LayoutInflater) view.getContext().getSystemService(view.getContext().LAYOUT_INFLATER_SERVICE);
+        View popupView = inflater.inflate(R.layout.ventana_recomendacion_equipo, null, false);
+
+        int width = LinearLayout.LayoutParams.MATCH_PARENT;
+        int height = LinearLayout.LayoutParams.MATCH_PARENT;
+
+        final PopupWindow popupWindow = new PopupWindow(popupView, width, height, true);
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
+        btCerrarRecomendaciones = popupView.findViewById(R.id.btCerrarRecomendacion);
+
+        btCerrarRecomendaciones.setOnClickListener(v -> {
+            popupWindow.dismiss();
+        });
+
+
+    }
 
     public void showPopupWindow(final View view, Personaje p) {
 
         LayoutInflater inflater = (LayoutInflater) view.getContext().getSystemService(view.getContext().LAYOUT_INFLATER_SERVICE);
         View popupView = inflater.inflate(R.layout.ventana_build_recomendada, null);
 
-        int width = LinearLayout.LayoutParams.MATCH_PARENT;
+        int width = LinearLayout.LayoutParams.WRAP_CONTENT;
         int height = LinearLayout.LayoutParams.WRAP_CONTENT;
 
         boolean focusable = true;

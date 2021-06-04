@@ -149,5 +149,9 @@
     <string name="estadisticas_zhongli">Estadísticas deseadas: \n Ataque:2k \n Crit:70% \n Daño crit:140% \n Recarga de energia:150%</string>
 
     <string name="quitar_del_equipo">Quitar del equipo</string>
+    <string name="recomendacion_equipos">Recomendación de Equipos</string>
+    <string name="consejos_equipo_actual">Consejos sobre el equipo actual</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="anyadir_al_equipo">Añadir al equipo</string>
 
 </resources>

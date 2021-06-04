@@ -6,7 +6,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,17 +24,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.R;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.Personaje;
+import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.model.PopUp;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.VerPersonajeFragment;
+import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.adapters.EquipoAdapter;
 import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.adapters.PersonajeAdapter;
-import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.personajes.PersonajesFragment;
-import net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.personajes.PersonajesViewModel;
 
 import java.util.List;
 
 public class EquipoFragment extends Fragment {
     private RecyclerView rvEquipo;
     private EquipoViewModel equipoViewModel;
-    private PersonajeAdapter personajeAdapter;
+    private EquipoAdapter equipoAdapter;
+    private Button btConsejosEquipoActual;
+    private Button btRecomendacionEquipos;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         equipoViewModel = new ViewModelProvider(this).get(EquipoViewModel.class);
@@ -47,27 +51,40 @@ public class EquipoFragment extends Fragment {
         equipoViewModel = new ViewModelProvider(this).get(EquipoViewModel.class);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false);
-        personajeAdapter = new PersonajeAdapter();
+        equipoAdapter = new EquipoAdapter();
         rvEquipo.setHasFixedSize(true);
         rvEquipo.setLayoutManager(layoutManager);
         rvEquipo.setLayoutManager(new GridLayoutManager(requireContext(), 4));
-        rvEquipo.setAdapter(personajeAdapter);
-//mirar la query
+        rvEquipo.setAdapter(equipoAdapter);
+
         equipoViewModel = new ViewModelProvider(this).get(EquipoViewModel.class);
         equipoViewModel.getPersonajesEquipo().observe(getViewLifecycleOwner(), new
                 Observer<List<Personaje>>() {
                     @Override
                     public void onChanged(List<Personaje> personajes) {
-                        personajeAdapter.setListaPersonajes(equipoViewModel.getPersonajesEquipoList());
-                        personajeAdapter.notifyDataSetChanged();
+                        equipoAdapter.setEquipo(equipoViewModel.getPersonajesEquipoList());
+                        equipoAdapter.notifyDataSetChanged();
                     }
                 });
-        personajeAdapter.setOnItemPersonajeClickListener(personaje -> {
+        equipoAdapter.setOnItemPersonajeEquipoClickListener(personaje -> {
             Bundle argumentosBundle = new Bundle();
             argumentosBundle.putParcelable(VerPersonajeFragment.ARG_PERSONAJE, personaje);
             NavHostFragment.findNavController(EquipoFragment.this).navigate(R.id.verPersonajeFragment, argumentosBundle);
         });
         definirEventoSwiper();
+
+        btConsejosEquipoActual = view.findViewById(R.id.btConsejosEquipoActual);
+        btRecomendacionEquipos = view.findViewById(R.id.btEquiposRecomendados);
+
+        btConsejosEquipoActual.setOnClickListener(v -> {
+            Toast toast = Toast.makeText(getContext(), "Función en desarrollo", Toast.LENGTH_SHORT);
+            toast.show();
+        });
+
+        btRecomendacionEquipos.setOnClickListener(v -> {
+            PopUp popUp = new PopUp();
+            popUp.showWindow(view);
+        });
     }
 
     private void definirEventoSwiper() {
@@ -98,7 +115,7 @@ public class EquipoFragment extends Fragment {
                 DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        personajeAdapter.notifyItemChanged(posicion);
+                        equipoAdapter.notifyItemChanged(posicion);
                     }
                 });
         dialogo.setPositiveButton(android.R.string.ok, new
@@ -106,7 +123,7 @@ public class EquipoFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         equipoViewModel.insert(personaje);
-                        personajeAdapter.notifyItemChanged(posicion);
+                        equipoAdapter.notifyItemChanged(posicion);
                     }
                 });
         dialogo.show();

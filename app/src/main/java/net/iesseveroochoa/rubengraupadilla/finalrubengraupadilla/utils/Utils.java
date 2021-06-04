@@ -229,4 +229,113 @@ public class Utils {
                 .error(R.drawable.error)
                 .into(imageView);
     }
+
+    public static void cargaImagenEquipo(ImageView imageView, String nombre) {
+        Drawable imagenEquipo;
+        switch (nombre) {
+            case "Albedo":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.albedo_equipo);
+                break;
+            case "Amber":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.amber_equipo);
+                break;
+            case "Barbara":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.barbara_equipo);
+                break;
+            case "Beidou":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.beidou_equipo);
+                break;
+            case "Bennet":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.bennet_equipo);
+                break;
+            case "Chongyun":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.chongyun_equipo);
+                break;
+            case "Diluc":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.diluc_equipo);
+                break;
+            case "Diona":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.diona_equipo);
+                break;
+            case "Eula":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.eula_equipo);
+                break;
+            case "Fischl":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.fischl_equipo);
+                break;
+            case "Ganyu":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.ganyu_equipo);
+                break;
+            case "Hu Tao":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.hutao_equipo);
+                break;
+            case "Jean":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.jean_equipo);
+                break;
+            case "Kaeya":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.kaeya_equipo);
+                break;
+            case "Keqing":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.keqing_equipo);
+                break;
+            case "Klee":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.klee_equipo);
+                break;
+            case "Lisa":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.lisa_equipo);
+                break;
+            case "Mona":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.mona_equipo);
+                break;
+            case "Ningguang":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.ningguang_equipo);
+                break;
+            case "Noelle":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.noelle_equipo);
+                break;
+            case "Qiqi":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.qiqi_equipo);
+                break;
+            case "Razor":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.razor_equipo);
+                break;
+            case "Rosaria":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.rosaria_equipo);
+                break;
+            case "Sucrose":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.sucrose_equipo);
+                break;
+            case "Tartaglia":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.tartaglia_equipo);
+                break;
+            case "Venti":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.venti_equipo);
+                break;
+            case "Xiangling":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xiangling_equipo);
+                break;
+            case "Xiao":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xiao_equipo);
+                break;
+            case "Xingqiu":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xingqiu_equipo);
+                break;
+            case "Xinyan":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.xinyan_equipo);
+                break;
+            case "Yanfei":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.yanfei_equipo);
+                break;
+            case "Zhongli":
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.zhongli_equipo);
+                break;
+            default:
+                imagenEquipo = ContextCompat.getDrawable(imageView.getContext(), R.drawable.albedo_equipo);
+        }
+        Glide
+                .with(imageView.getContext())
+                .load(imagenEquipo)
+                .error(R.drawable.error)
+                .into(imageView);
+    }
 }

@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         btAbismo.setOnClickListener(v -> {
             Toast toast = Toast.makeText(getApplicationContext(), R.string.btAbyssNoDisponible, Toast.LENGTH_LONG);
-            toast.setGravity(Gravity.CENTER, 0, 25);
+            toast.setGravity(Gravity.CENTER, 0, 40);
             toast.show();
         });
     }

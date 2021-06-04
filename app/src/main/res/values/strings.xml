@@ -153,5 +153,6 @@
     <string name="consejos_equipo_actual">Consejos sobre el equipo actual</string>
     <string name="cerrar">Cerrar</string>
     <string name="anyadir_al_equipo">Añadir al equipo</string>
+    <string name="en_desarrollo">Función en desarrollo</string>
 
 </resources>

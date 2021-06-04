@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,7 +22,7 @@ public class VerEquipoFragment extends Fragment {
 
     public static final String ARG_EQUIPO = "VerEquipoFragment.personaje";
 
-    EquipoViewModel equipoViewModel;
+//    EquipoViewModel equipoViewModel;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -45,8 +46,10 @@ public class VerEquipoFragment extends Fragment {
             ventana.showPopupWindow(view, personaje);
         });
         btQuitarDelEquipo.setOnClickListener(v -> {
-            personaje.setEnEquipo(false);
-            equipoViewModel.update(personaje);
+//            personaje.setEnEquipo(false);
+//            equipoViewModel.update(personaje);
+            Toast toast = Toast.makeText(getContext(), R.string.en_desarrollo, Toast.LENGTH_SHORT);
+            toast.show();
         });
     }
 }

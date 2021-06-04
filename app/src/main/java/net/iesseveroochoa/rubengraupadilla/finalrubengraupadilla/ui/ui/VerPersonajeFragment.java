@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,7 +24,6 @@ public class VerPersonajeFragment extends Fragment {
 
     public static final String ARG_PERSONAJE = "VerPersonajeFragment.personaje";
 
-    EquipoFragment equipoFragment;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -33,18 +33,16 @@ public class VerPersonajeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Button btBuildRecomendada;
         Button btAnyadirAlEquipo;
         ImageView ivPersonajeBackground;
         Personaje personaje;
-        btBuildRecomendada = view.findViewById(R.id.btBuild);
         btAnyadirAlEquipo = view.findViewById(R.id.btAnyadirAlEquipo);
         ivPersonajeBackground = view.findViewById(R.id.ivBackgroundPersonaje);
         personaje = getArguments().getParcelable(ARG_PERSONAJE);
         Utils.cargaImagenBackground(ivPersonajeBackground, personaje.getNombre());
-        btBuildRecomendada.setOnClickListener(v -> {
-            PopUp ventana = new PopUp();
-            ventana.showPopupWindow(view, personaje);
+        btAnyadirAlEquipo.setOnClickListener(v -> {
+            Toast toast = Toast.makeText(getContext(), R.string.en_desarrollo, Toast.LENGTH_SHORT);
+            toast.show();
         });
     }
 }

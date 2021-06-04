@@ -59,11 +59,11 @@ public class EquipoFragment extends Fragment {
         rvEquipo.setAdapter(equipoAdapter);
 
         equipoViewModel = new ViewModelProvider(this).get(EquipoViewModel.class);
-        equipoViewModel.getPersonajesEquipo().observe(getViewLifecycleOwner(), new
+        equipoViewModel.getAllPersonajes().observe(getViewLifecycleOwner(), new //<-- getPersonajesEquipo()
                 Observer<List<Personaje>>() {
                     @Override
                     public void onChanged(List<Personaje> personajes) {
-                        equipoAdapter.setEquipo(equipoViewModel.getPersonajesEquipoList());
+                        equipoAdapter.setEquipo(equipoViewModel.getAllPersonajesList()); //<-- getPersonajesEquipoList()
                         equipoAdapter.notifyDataSetChanged();
                     }
                 });
@@ -78,7 +78,7 @@ public class EquipoFragment extends Fragment {
         btRecomendacionEquipos = view.findViewById(R.id.btEquiposRecomendados);
 
         btConsejosEquipoActual.setOnClickListener(v -> {
-            Toast toast = Toast.makeText(getContext(), "Función en desarrollo", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getContext(), R.string.en_desarrollo, Toast.LENGTH_SHORT);
             toast.show();
         });
 
@@ -99,9 +99,9 @@ public class EquipoFragment extends Fragment {
 
                     @Override
                     public void onSwiped(RecyclerView.ViewHolder viewHolder, int swipeDir) {
-                        PersonajeAdapter.PersonajeViewHolder vhPersonaje = (PersonajeAdapter.PersonajeViewHolder) viewHolder;
-                        Personaje personaje = vhPersonaje.getPersonaje();
-                        quitarDelEquipo(personaje, vhPersonaje.getAdapterPosition());
+                        EquipoAdapter.EquipoViewHolder vhEquipo = (EquipoAdapter.EquipoViewHolder) viewHolder;
+                        Personaje personaje = vhEquipo.getPersonaje();
+                        quitarDelEquipo(personaje, vhEquipo.getAdapterPosition());
                     }
                 };
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleItemTouchCallback);
@@ -111,7 +111,7 @@ public class EquipoFragment extends Fragment {
     private void quitarDelEquipo(Personaje personaje, int posicion) {
         AlertDialog.Builder dialogo = new AlertDialog.Builder(getContext());
         dialogo.setTitle(R.string.aviso);
-        dialogo.setMessage("Desea añadir el personaje al equipo?");
+        dialogo.setMessage("Desea quitar el personaje del equipo?");
         dialogo.setNegativeButton(android.R.string.cancel, new
                 DialogInterface.OnClickListener() {
                     @Override
@@ -123,6 +123,7 @@ public class EquipoFragment extends Fragment {
                 DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
+                        personaje.setEnEquipo(false);
                         equipoViewModel.update(personaje);
                         equipoAdapter.notifyItemChanged(posicion);
                     }

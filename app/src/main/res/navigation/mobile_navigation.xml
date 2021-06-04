@@ -9,7 +9,7 @@
         android:id="@+id/nav_personajes"
         android:name="net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.personajes.PersonajesFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_personajes" >
+        tools:layout="@layout/fragment_personajes">
         <action
             android:id="@+id/action_nav_personajes_to_verPersonajeFragment"
             app:destination="@id/verPersonajeFragment" />
@@ -19,7 +19,7 @@
         android:id="@+id/nav_equipo"
         android:name="net.iesseveroochoa.rubengraupadilla.finalrubengraupadilla.ui.ui.equipo.EquipoFragment"
         android:label="@string/menu_equipo"
-        tools:layout="@layout/fragment_equipo" >
+        tools:layout="@layout/fragment_equipo">
         <action
             android:id="@+id/action_nav_equipo_to_verEquipoFragment"
             app:destination="@id/verEquipoFragment" />

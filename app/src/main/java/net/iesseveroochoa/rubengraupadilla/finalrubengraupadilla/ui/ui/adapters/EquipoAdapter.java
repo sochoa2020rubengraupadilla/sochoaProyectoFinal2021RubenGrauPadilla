@@ -46,7 +46,7 @@ public class EquipoAdapter extends RecyclerView.Adapter<EquipoAdapter.EquipoView
 
     @Override
     public int getItemCount() {
-        if (equipo != null && equipo.size() <= 4)
+        if (equipo != null /*&& equipo.size() <= 4*/)
             return equipo.size();
         else return 0;
     }

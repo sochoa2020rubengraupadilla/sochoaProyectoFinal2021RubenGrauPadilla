@@ -20,7 +20,7 @@ public class EquipoViewModel extends AndroidViewModel {
     public EquipoViewModel(@NonNull Application application) {
         super(application);
         mRepository = PersonajeRepository.getInstance(application);
-        mAllPersonajes = mRepository.getPersonajesEquipo();
+        mAllPersonajes = mRepository.getAllPersonajes(); //<-- getPersonajesEquipo()
     }
 
     public LiveData<List<Personaje>> getPersonajesEquipo() {
@@ -41,5 +41,13 @@ public class EquipoViewModel extends AndroidViewModel {
 
     public void update(Personaje personaje) {
         mRepository.update(personaje);
+    }
+
+    public LiveData<List<Personaje>> getAllPersonajes() {
+        return mAllPersonajes;
+    }
+
+    public List<Personaje> getAllPersonajesList() {
+        return mAllPersonajes.getValue();
     }
 }
